@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Huajlliri Condori Lehi Jose">
+	<title>Formulario</title>
+	<style type="text/css">
+		img{
+			float: right; margin-right: 250px;
+		}
+		h1{
+			margin-left: 150px;
+		}
+		form{
+			margin-left: 250px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Formulario</h1>
+	<form>
+		<label>Nombre: </label>
+		<input type="text" name="nombre" required>
+		<br>
+		<br>
+		<label>Correo electrónico: </label>
+		<input type="email" name="correo" required>
+		<br>
+		<br>
+		<label>URL: </label>
+		<input type="url" name="sitioweb" placeholder="Escribe la URL de tu página" required>
+		<br>
+		<br>
+		<label>Fecha: </label>
+		<input id="date" type="date" required>
+		<br>
+		<br>
+		<label>Tiempo: </label>
+		<input type="time" name="eta" required>
+		<br>
+		<br>
+		<label>Fecha y hora: </label>
+		<input type="datetime-local" name="fechahora" required>
+		<br>
+		<br>
+		<label>Mes: </label>
+		<input type="month" name="mes" required>
+		<br>
+		<br>
+		<label>Semana: </label>
+		<input type="week" name="semana" required> 
+		<br>
+		<br>
+		<label>Número(min -10, max 10)</label>
+		<input type="number" name="numrango" value="0" min="-10" max="10" required>
+		<br>
+		<br>
+		<label>Teléfono: </label>
+		<input type="tel" name="telefono" placeholder="(Código de área)Número" required>
+		<br>
+		<br>
+		<label>Término de búsqueda: </label>
+		<input type="search" name="busqueda" required>
+		<br>
+		<br>
+		<label>Color favorito: </label>
+		<input type="color" name="color" required>
+		<br>
+		<br>
+		<input type="submit" name="Enviar " required>
+	</form>
+</body>
+</html>
